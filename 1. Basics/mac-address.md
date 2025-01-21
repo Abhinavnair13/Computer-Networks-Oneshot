@@ -61,5 +61,3 @@ When a device sends data over a network, it encapsulates the data into a **frame
 Switches in the network use MAC addresses to direct data to the correct recipient within the local area network (LAN).
 
 ---
-
-## Example of a MAC Address Frame:
