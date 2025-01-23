@@ -1,6 +1,6 @@
 # TCP/IP Protocols
 
-The **TCP/IP protocol suite** is the foundation of modern networking, providing rules for data transmission across the internet. It includes many protocols, each designed for specific purposes. Here are some commonly used ones:
+The **TCP/IP protocol suite** is a suite of protocols that includes both stateful and stateless components. It includes many protocols, each designed for specific purposes. Here are some commonly used ones:
 
 ---
 
@@ -60,23 +60,16 @@ Used to login to someone else's terminal
 - **How it works**: Displays the screen of a remote computer and lets the user control it as if sitting in front of it.
 
 ---
+## 9. UDP (User Datagram Protocol)
+- **Purpose**: A connectionless protocol used for fast data transmission where reliability is not a priority.
+- **Port**: Commonly used with various ports, depending on the application (e.g., 53 for DNS, 67 for DHCP).
+- **How it works**: UDP sends data packets (datagrams) without establishing a connection. It does not ensure that the data arrives or is received in the correct order, making it faster but less reliable than TCP.
 
-# Telnet Protocol
-- **Purpose**: Provides remote access to devices using a command-line interface.
-- **Port**: 23.
-- **How it works**: Telnet sends data in plain text, which makes it insecure. It is largely replaced by SSH for secure communication.
-
----
-
-## Key Differences Between Telnet and SSH:
-| **Feature**        | **Telnet**                  | **SSH**                      |
-|--------------------|----------------------------|-----------------------------|
-| **Security**       | No encryption (insecure).  | Encrypted (secure).         |
-| **Port**           | 23                         | 22                          |
-| **Use Case**       | Legacy systems, debugging. | Secure remote access.       |
-
----
-
-## Summary
-- TCP/IP protocols are essential for various network services like web browsing, email, file transfer, and remote access.
-- **Telnet** is a simple protocol for remote access but lacks security, making **SSH** the preferred choice in modern systems.
+### Key Characteristics:
+- **Connectionless**: Does not establish or maintain a connection before data transmission.
+- **Unreliable**: No guarantee of delivery, order, or error-checking.
+- **Low Overhead**: Faster than TCP due to less error-checking and overhead.
+- **Use Cases**:
+  - **Streaming**: For real-time applications like video or audio streaming where speed is more important than reliability.
+  - **Gaming**: Online multiplayer games use UDP for quick, low-latency communication.
+  - **DNS**: Domain Name System queries, where speed is crucial and occasional lost packets are acceptable.
