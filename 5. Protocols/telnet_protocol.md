@@ -1,5 +1,6 @@
 # Telnet Protocol
-- **Purpose**: Provides remote access to devices using a command-line interface.
+- **Purpose**: Provides remote access to devices using a command-line interface. It allows users to connect to a remote computer or server and execute commands as if they were directly accessing it via a terminal.
+Telnet operates over TCP
 - **Port**: 23.
 - **How it works**: Telnet sends data in plain text, which makes it insecure. It is largely replaced by SSH for secure communication.
 
