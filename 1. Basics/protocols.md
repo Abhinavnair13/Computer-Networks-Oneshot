@@ -16,7 +16,7 @@ A **protocol** is a set of rules or standards that govern how data is transmitte
 ### 1. **Network Protocols**
    - Govern how devices communicate over a network.
    - Examples:
-     - **HTTP**: Used for transmitting web pages.
+     - **HTTP**: Used for transmitting web pages.Http is an application layer protocol and it uses tcp in the transport layer
      - **FTP**: Used for transferring files.
      - **TCP/IP**: Ensures reliable data transmission over the internet.
 

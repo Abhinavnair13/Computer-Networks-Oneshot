@@ -7,7 +7,7 @@ The **TCP/IP protocol suite** is a suite of protocols that includes both statefu
 ## 1. HTTP (HyperText Transfer Protocol)
 - **Purpose**: Used for transferring web pages, images, and other resources over the internet.
 - **Port**: 80 (HTTP), 443 (HTTPS for secure communication).
-- **How it works**: Clients (browsers) send requests to web servers, which respond with the requested content.
+- **How it works**: Clients (browsers) send requests to web servers, which respond with the requested content. Http uses tcp internally.
 
 ---
 

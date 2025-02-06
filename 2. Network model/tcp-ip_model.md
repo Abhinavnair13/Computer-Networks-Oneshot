@@ -72,6 +72,9 @@ The **TCP/IP Model (Transmission Control Protocol/Internet Protocol)** is a simp
 
 ---
 
+### The **network layer** is responible for communication between 2 clients but within the clients, the transportation of data from the network to the application is done by **transport layer** .
+---
+
 ## Why Use TCP/IP Over OSI?
 - **Simplicity**: Fewer layers make it easier to implement.
 - **Internet Standard**: TCP/IP is the backbone of the internet.
