@@ -61,6 +61,7 @@ Protocols operate at various layers of the **OSI Model** or the **TCP/IP Model**
 | HTTP         | Web communication                 | Application Layer   |
 | FTP          | File transfer                     | Application Layer   |
 | TCP          | Reliable data delivery            | Transport Layer     |
+| UDP          | Fast data transmission            | Transport Layer     |
 | IP           | Routing and addressing            | Network Layer       |
 | Bluetooth    | Wireless device communication     | Physical Layer      |
 
