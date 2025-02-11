@@ -15,7 +15,7 @@ The **TCP/IP Model (Transmission Control Protocol/Internet Protocol)** is a simp
    - Handles segmentation, error detection, and flow control.
    - **Protocols**: TCP (reliable, connection-oriented), UDP (faster, connectionless).
 
-3. **Internet Layer**
+3. **Network Layer**
    - Maps to OSI's Network layer.
    - Responsible for routing and addressing packets.
    - **Protocols**: IP (IPv4/IPv6), ICMP, ARP.
