@@ -31,6 +31,14 @@ Network Address Translation (NAT) is a technique used to modify IP addresses in 
   - `192.168.1.3:1060` → `203.0.113.1:5001`
   - The router modifies the source port to distinguish connections.
 
+## Example
+| Original IP Address | NAT       | Translated IP Address |
+|----------------------|-----------|-----------------------|
+| 10.0.0.1            | →         | 200.100.10.1          |
+| 200.100.10.1         | →         | 10.0.0.1              |
+| ...                  | ...       | ...                   |
+| 150.150.0.1          | →         | 200.100.10.1          |
+| 200.100.10.1         | →         | 150.150.0.1           |
 ---
 
 ##  **How NAT Works?**
@@ -58,5 +66,3 @@ Network Address Translation (NAT) is a technique used to modify IP addresses in 
 - NAT helps manage IP addresses efficiently and provides security.
 - **Home routers use NAT Overload (PAT)** to share a single IP.
 - **Businesses use Static/Dynamic NAT** depending on their needs.
-
-![nat](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNetwork_address_translation&psig=AOvVaw24tA7hSrY4a-aESQadQUlM&ust=1739354986434000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODtnrOwu4sDFQAAAAAdAAAAABAE)
